@@ -152,7 +152,7 @@ struct Cliente *cadastrarCliente() {
     prioridade = lerOpcao();
     if (prioridade == -1) return NULL;
 
-    printf("Itens: ");
+    printf("Quantidade de itens: ");
     itens = lerOpcao();
     if (itens == -1) return NULL;
 

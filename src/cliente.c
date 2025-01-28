@@ -15,7 +15,7 @@ struct Cliente *criarCliente(char *nome, long int CPF, int prioridade, int itens
         return NULL;
     }
 
-    if (itens < 0) {
+    if (itens <= 0) {
         printf("\nQuantidade de itens invalida\n");
         return NULL;
     }
